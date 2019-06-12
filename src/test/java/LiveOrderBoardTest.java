@@ -100,8 +100,8 @@ public class LiveOrderBoardTest {
 
         //Answer should be: (2000, 1500, 700, 300)
 
-        assertEquals(1500, position1.getPrice(), 1);
-        assertEquals(700, position2.getPrice(), 1);
+        assertEquals(2000, position1.getPrice(), 1);
+        assertEquals(1500, position2.getPrice(), 1);
         assertEquals(700, position3.getPrice(), 1);
         assertEquals(300, position4.getPrice(), 1);
 
